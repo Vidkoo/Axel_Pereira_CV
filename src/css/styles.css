@@ -14,12 +14,11 @@ i {
 }
 
 a {
-    color: #888888;
-    text-decoration: none;
+    color: #373737;
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .titre h2 {
