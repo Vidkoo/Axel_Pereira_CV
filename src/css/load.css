@@ -1,0 +1,29 @@
+body {
+    overflow-y: hidden;
+}
+
+.scroll-active {
+    overflow-y: auto;
+}
+
+.loader {
+    display: flex;
+    position: fixed;
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    overflow-y: hidden;
+}
+
+.loader canvas {
+    background-image: url("../img/load.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.chargement {
+    opacity: 0;
+    transition: opacity 0.4s ease-out;
+}
