@@ -102,12 +102,12 @@ header h1 {
     margin-top: 80px;
 }
 
-.section1 .contenue .texte1 .infos ul {
+.section1 .contenue .texte1P .infos ul {
     list-style-type: none;
     font-size: 25px;
 }
 
-.section1 .contenue .texte1 .objectif p {
+.section1 .contenue .texte1P .objectif p {
     padding-left: 40px;
     margin-top: 70px;
     font-size: 20px;
@@ -126,7 +126,7 @@ header h1 {
         align-items: center;
     }
 
-    .section1 .contenue .texte1 .infos ul {
+    .section1 .contenue .texte1P .infos ul {
         text-align: center;
         padding-left: 0;
     }
@@ -149,64 +149,64 @@ header h1 {
     padding-bottom: 60px;
 }
 
-.section2 .contenue .texte2 {
+.section2 .contenue .texte1C {
     display: flex;
     margin-left: 400px;
     margin-top: 50px;
     align-items: center;
 }
 
-.section2 .contenue .texte2 .dates_ecole {
+.section2 .contenue .texte1C .dates_ecole {
     border-right: 3px #888888 solid;
     padding-right: 50px;
 }
 
-.section2 .contenue .texte2 .dates_ecole p {
+.section2 .contenue .texte1C .dates_ecole p {
     font-size: 30px;
 }
 
-.section2 .contenue .texte2 .ecole {
+.section2 .contenue .texte1C .ecole {
     padding-left: 20px;
 }
 
-.section2 .contenue .texte2 .ecole a {
+.section2 .contenue .texte1C .ecole a {
     font-size: 30px;
 }
 
-.section2 .contenue .texte2 .ecole p {
+.section2 .contenue .texte1C .ecole p {
     font-size: 20px;
     margin: 0;
 }
 
 /* Laptop */
 @media screen and (max-width: 1024px) {
-    .section2 .contenue .texte2 {
+    .section2 .contenue .texte1C {
         margin-left: 100px;
     }
 }
 
 /* Tablet */
 @media screen and (max-width: 768px) {
-    .section2 .contenue .texte2 {
+    .section2 .contenue .texte1C {
         flex-direction: column;
         margin-left: 0;
     }
 
-    .section2 .contenue .texte2 .dates_ecole {
+    .section2 .contenue .texte1C .dates_ecole {
         border-right: none;
         padding-right: 0;
     }
 
-    .section2 .contenue .texte2 .dates_ecole p {
+    .section2 .contenue .texte1C .dates_ecole p {
         margin: 0;
         font-size: 50px;
     }
 
-    .section3 .contenue .texte2 .ecole {
+    .section3 .contenue .texte1C .ecole {
         padding-left: 0;
     }
 
-    .section3 .contenue .texte2 .ecole a, p {
+    .section3 .contenue .texte1C .ecole a, p {
         text-align: center;
 
     }
@@ -218,64 +218,111 @@ header h1 {
     padding-bottom: 60px;
 }
 
-.section3 .contenue .texte3 {
+.section3 .contenue .texte1E {
     display: flex;
     align-items: center;
     margin-left: 400px;
     margin-top: 50px;
 }
 
-.section3 .contenue .texte3 .dates_experience {
+.section3 .contenue .texte1E .dates_experience {
     border-right: 3px #888888 solid;
     padding-right: 50px;
 }
 
-.section3 .contenue .texte3 .dates_experience p  {
+.section3 .contenue .texte1E .dates_experience p  {
     font-size: 30px;
 }
 
-.section3 .contenue .texte3 .experience {
+.section3 .contenue .texte1E .experience {
     padding-left: 20px;
 }
 
-.section3 .contenue .texte3 .experience p {
+.section3 .contenue .texte1E .experience p {
     margin: 0;
 }
 
-.section3 .contenue .texte3 .experience ul {
+.section3 .contenue .texte1E .experience ul {
+    margin: 0;
+}
+
+.section3 .contenue .texte2E {
+    display: flex;
+    align-items: center;
+    margin-left: 400px;
+    padding-top: 80px;
+}
+
+.section3 .contenue .texte2E .dates_experience {
+    border-right: 3px #888888 solid;
+    padding-right: 50px;
+}
+
+.section3 .contenue .texte2E .dates_experience p {
+    font-size: 30px;
+}
+
+.section3 .contenue .texte2E .experience {
+    padding-left: 20px;
+}
+
+.section3 .contenue .texte2E .experience p {
     margin: 0;
 }
 
 /* Laptop */
 @media screen and (max-width: 1024px) {
-    .section3 .contenue .texte3 {
+    .section3 .contenue .texte1E {
+        margin-left: 100px;
+    }
+
+    .section3 .contenue .texte2E {
         margin-left: 100px;
     }
 }
 
 /* Tablet */
 @media screen and (max-width: 768px) {
-    .section3 .contenue .texte3 {
+    .section3 .contenue .texte1E {
         flex-direction: column;
         margin-left: 0;
     }
 
-    .section3 .contenue .texte3 .dates_experience {
+    .section3 .contenue .texte1E .dates_experience {
         border-right: none;
         padding-right: 0;
     }
 
-    .section3 .contenue .texte3 .dates_experience p {
+    .section3 .contenue .texte1E .dates_experience p {
         margin: 0;
         font-size: 50px;
     }
 
-    .section3 .contenue .texte3 .experience {
+    .section3 .contenue .texte1E .experience {
         padding-left: 0;
     }
 
-    .section3 .contenue .texte3 .experience ul li {
+    .section3 .contenue .texte1E .experience ul li {
         align-items: center;
+    }
+
+    .section3 .contenue .texte2E {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .section3 .contenue .texte2E .dates_experience {
+        border-right: none;
+        padding-right: 0;
+    }
+
+    .section3 .contenue .texte2E .dates_experience p {
+        margin: 0;
+        font-size: 50px;
+    }
+
+    .section3 .contenue .texte2E .experience {
+        padding-left: 0;
     }
 }
 
@@ -286,59 +333,59 @@ header h1 {
     padding-bottom: 60px;
 }
 
-.section4 .contenue .texte4 {
+.section4 .contenue .texte1D {
     display: flex;
     align-items: center;
     margin-left: 400px;
     margin-top: 50px;
 }
 
-.section4 .contenue .texte4 .dates_divers {
+.section4 .contenue .texte1D .dates_divers {
     border-right: 3px #888888 solid;
     padding-right: 50px;
 }
 
-.section4 .contenue .texte4 .dates_divers {
+.section4 .contenue .texte1D .dates_divers {
     font-size: 30px;
 }
 
-.section4 .contenue .texte4 .infos_divers {
+.section4 .contenue .texte1D .infos_divers {
     padding-left: 20px;
 }
 
-.section4 .contenue .texte4 .infos_divers p {
+.section4 .contenue .texte1D .infos_divers p {
     font-size: 30px;
 }
 
 /* Laptop */
 @media screen and (max-width: 1024px) {
-    .section4 .contenue .texte4 {
+    .section4 .contenue .texte1D {
         margin-left: 100px;
     }
 }
 
 /* Tablet */
 @media screen and (max-width: 768px) {
-    .section4 .contenue .texte4 {
+    .section4 .contenue .texte1D {
         flex-direction: column;
         margin-left: 0;
     }
 
-    .section4 .contenue .texte4 .dates_divers {
+    .section4 .contenue .texte1D .dates_divers {
         border-right: none;
         padding-right: 0;
     }
 
-    .section4 .contenue .texte4 .dates_divers p {
+    .section4 .contenue .texte1D .dates_divers p {
         font-size: 50px;
         margin: 0;
     }
 
-    .section4 .contenue .texte4 .infos_divers {
+    .section4 .contenue .texte1D .infos_divers {
         padding-left: 0;
     }
 
-    .section4 .contenue .texte4 .infos_divers p {
+    .section4 .contenue .texte1D .infos_divers p {
         margin: 0;
         font-size: 50px;
     }
