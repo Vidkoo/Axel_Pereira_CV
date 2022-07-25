@@ -178,6 +178,13 @@ header h1 {
     margin: 0;
 }
 
+/* Laptop L */
+@media screen and (max-width: 1440px) {
+    .section2 .contenue .texte1C {
+        margin-left: 100px;
+    }
+}
+
 /* Laptop */
 @media screen and (max-width: 1024px) {
     .section2 .contenue .texte1C {
@@ -270,6 +277,18 @@ header h1 {
     margin: 0;
 }
 
+/* Laptop L */
+
+@media screen and (max-width: 1440px) {
+    .section3 .contenue .texte1E {
+        margin-left: 100px;
+    }
+
+    .section3 .contenue .texte2E {
+        margin-left: 100px;
+    }
+}
+
 /* Laptop */
 @media screen and (max-width: 1024px) {
     .section3 .contenue .texte1E {
@@ -345,7 +364,7 @@ header h1 {
     padding-right: 50px;
 }
 
-.section4 .contenue .texte1D .dates_divers {
+.section4 .contenue .texte1D .dates_divers p {
     font-size: 30px;
 }
 
@@ -357,9 +376,48 @@ header h1 {
     font-size: 30px;
 }
 
+.section4 .contenue .texte2D {
+    display: flex;
+    align-items: center;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+.section4 .contenue .texte2D .dates_divers {
+    border-right: 3px #888888 solid;
+    padding-right: 50px;
+}
+
+.section4 .contenue .texte2D .dates_divers p {
+    font-size: 30px;
+}
+
+.section4 .contenue .texte2D .infos_divers {
+    padding-left: 20px;
+}
+
+.section4 .contenue .texte2D .infos_divers p {
+    font-size: 30px;
+}
+
+/* Laptop L */
+@media screen and (max-width: 1440px) {
+    .section4 .contenue .texte1D {
+        margin-left: 100px;
+    }
+
+    .section4 .contenue .texte2D {
+        margin-left: 100px;
+    }
+}
+
 /* Laptop */
 @media screen and (max-width: 1024px) {
     .section4 .contenue .texte1D {
+        margin-left: 100px;
+    }
+
+    .section4 .contenue .texte2D {
         margin-left: 100px;
     }
 }
@@ -386,6 +444,30 @@ header h1 {
     }
 
     .section4 .contenue .texte1D .infos_divers p {
+        margin: 0;
+        font-size: 50px;
+    }
+
+    .section4 .contenue .texte2D {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .section4 .contenue .texte2D .dates_divers {
+        border-right: none;
+        padding-right: 0;
+    }
+
+    .section4 .contenue .texte2D .dates_divers p {
+        font-size: 50px;
+        margin: 0;
+    }
+
+    .section4 .contenue .texte2D .infos_divers {
+        padding-left: 0;
+    }
+
+    .section4 .contenue .texte2D .infos_divers p {
         margin: 0;
         font-size: 50px;
     }
