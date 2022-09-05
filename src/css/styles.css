@@ -113,6 +113,12 @@ header h1 {
     font-size: 20px;
 }
 
+.section1 .contenue .texte1P .objectif p span
+{
+    font-weight: bold;
+    cursor: help;
+}
+
 .section1 .contenue img {
     width: 300px;
     border: #888888 3px solid;
