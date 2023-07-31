@@ -255,10 +255,6 @@ header h1 {
     margin: 0;
 }
 
-.section3 .contenue .texte1E .experience ul {
-    margin: 0;
-}
-
 .section3 .contenue .texte2E {
     display: flex;
     align-items: center;
@@ -283,6 +279,30 @@ header h1 {
     margin: 0;
 }
 
+.section3 .contenue .texte3E {
+    display: flex;
+    align-items: center;
+    margin-left: 400px;
+    padding-top: 80px;
+}
+
+.section3 .contenue .texte3E .dates_experience {
+    border-right: 3px #888888 solid;
+    padding-right: 50px;
+}
+
+.section3 .contenue .texte3E .dates_experience p {
+    font-size: 30px;
+}
+
+.section3 .contenue .texte3E .experience {
+    padding-left: 20px;
+}
+
+.section3 .contenue .texte3E .experience p {
+    margin: 0;
+}
+
 /* Laptop L */
 
 @media screen and (max-width: 1440px) {
@@ -291,6 +311,10 @@ header h1 {
     }
 
     .section3 .contenue .texte2E {
+        margin-left: 100px;
+    }
+
+    .section3 .contenue .texte3E {
         margin-left: 100px;
     }
 }
@@ -302,6 +326,10 @@ header h1 {
     }
 
     .section3 .contenue .texte2E {
+        margin-left: 100px;
+    }
+
+    .section3 .contenue .texte3E {
         margin-left: 100px;
     }
 }
@@ -347,6 +375,25 @@ header h1 {
     }
 
     .section3 .contenue .texte2E .experience {
+        padding-left: 0;
+    }
+
+    .section3 .contenue .texte3E {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .section3 .contenue .texte3E .dates_experience {
+        border-right: none;
+        padding-right: 0;
+    }
+
+    .section3 .contenue .texte3E .dates_experience p {
+        margin: 0;
+        font-size: 50px;
+    }
+
+    .section3 .contenue .texte3E .experience {
         padding-left: 0;
     }
 }
@@ -497,6 +544,7 @@ header h1 {
     display: flex;
     justify-content: space-evenly;
     margin-top: 100px;
+    margin-bottom: 150px;
 }
 
 .section5 .contenue .langages .HTML {
@@ -551,7 +599,7 @@ header h1 {
     margin-right: 15px;
 }
 
-.section5 .contenue .langages .JavaScript {
+.section5 .contenue .langages .Python {
     display: inline-flex;
     align-items: center;
     background-color: #EDEDED;
@@ -560,25 +608,188 @@ header h1 {
     padding: 20px;
 }
 
-.section5 .contenue .langages .JavaScript h4 {
+.section5 .contenue .langages .Python h4 {
     font-size: 48px;
     color: #373737;
     margin: 0;
 }
 
-.section5 .contenue .langages .JavaScript p {
+.section5 .contenue .langages .Python p {
     font-size: 36px;
-    color: #FF0000;
+    color: #FFBB00;
     margin: 0;
 }
 
-.section5 .contenue .langages .JavaScript img {
+.section5 .contenue .langages .Python img {
+    width: 120px;
+    margin-right: 15px;
+}
+
+.section5 .contenue .comp-reseaux {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.section5 .contenue .comp-reseaux .install {
+    display: inline-flex;
+    align-items: center;
+    background-color: #EDEDED;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+}
+
+.section5 .contenue .comp-reseaux .install h4 {
+    font-size: 48px;
+    color: #373737;
+    margin: 0;
+}
+
+.section5 .contenue .comp-reseaux .install img {
+    width: 120px;
+    margin-right: 15px;
+}
+
+.section5 .contenue .comp-reseaux .param {
+    display: inline-flex;
+    align-items: center;
+    background-color: #EDEDED;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+}
+
+.section5 .contenue .comp-reseaux .param h4 {
+    font-size: 48px;
+    color: #373737;
+    margin: 0;
+}
+
+.section5 .contenue .comp-reseaux .param img {
+    width: 120px;
+    margin-right: 15px;
+}
+
+.section5 .contenue .comp-reseaux .maintn {
+    display: inline-flex;
+    align-items: center;
+    background-color: #EDEDED;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+}
+
+.section5 .contenue .comp-reseaux .maintn h4 {
+    font-size: 48px;
+    color: #373737;
+    margin: 0;
+}
+
+.section5 .contenue .comp-reseaux .maintn img {
+    width: 120px;
+    margin-right: 15px;
+}
+
+.section5 .contenue .comp-embarque {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.section5 .contenue .comp-embarque .prototype-elec {
+    display: inline-flex;
+    align-items: center;
+    background-color: #EDEDED;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+}
+
+.section5 .contenue .comp-embarque .prototype-elec h4 {
+    font-size: 48px;
+    color: #373737;
+    margin: 0;
+}
+
+.section5 .contenue .comp-embarque .prototype-elec .texte p {
+    font-size: 36px;
+    color: #0077ff;
+    margin: 0;
+}
+
+.section5 .contenue .comp-embarque .prototype-elec img {
+    width: 120px;
+    margin-right: 15px;
+}
+
+.section5 .contenue .comp-embarque .code-cpp {
+    display: inline-flex;
+    align-items: center;
+    background-color: #EDEDED;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+}
+
+.section5 .contenue .comp-embarque .code-cpp h4 {
+    font-size: 48px;
+    color: #373737;
+    margin: 0;
+}
+
+.section5 .contenue .comp-embarque .code-cpp .texte p {
+    font-size: 36px;
+    color: #0077ff;
+    margin: 0;
+}
+
+.section5 .contenue .comp-embarque .code-cpp img {
+    width: 120px;
+    margin-right: 15px;
+}
+
+.section5 .contenue .autre-comp {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.section5 .contenue .autre-comp .hab-elec {
+    display: inline-flex;
+    align-items: center;
+    background-color: #EDEDED;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+}
+
+.section5 .contenue .autre-comp .hab-elec h4 {
+    font-size: 48px;
+    color: #373737;
+    margin: 0;
+    text-align: center;
+}
+
+.section5 .contenue .autre-comp .hab-elec .texte p {
+    font-size: 36px;
+    color: #FFBB00;
+    margin: 0;
+}
+
+.section5 .contenue .autre-comp .hab-elec img {
     width: 120px;
     margin-right: 15px;
 }
 
 /* Laptop */
 @media screen and (max-width: 1024px) {
+    .section5 .contenue h3 {
+        text-align: center;
+    }
+
     .section5 .contenue .langages {
         flex-direction: column;
         align-items: center;
@@ -590,12 +801,139 @@ header h1 {
     .section5 .contenue .langages .CSS {
         margin-bottom: 50px;
     }
+
+    .section5 .contenue .comp-reseaux {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section5 .contenue .comp-reseaux .install {
+        margin-bottom: 50px;
+    }
+
+    .section5 .contenue .comp-reseaux .param {
+        margin-bottom: 50px;
+    }
+
+    .section5 .contenue .comp-embarque {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section5 .contenue .comp-embarque .prototype-elec {
+        margin-bottom: 50px;
+    }
 }
 
-/* Mobile L */
-@media screen and (max-width: 425px) {
-    .section5 .contenue h3 {
+/* Tablette */
+@media screen and (max-width: 768px) {
+    .section5 .contenue .comp-reseaux .install {
+        flex-direction: column;
+    }
+
+    .section5 .contenue .comp-reseaux .install img {
+        margin: 0;
+        margin-bottom: 15px;
+    }
+
+    .section5 .contenue .comp-reseaux .param {
+        flex-direction: column;
+    }
+
+    .section5 .contenue .comp-reseaux .param img {
+        margin: 0;
+        margin-bottom: 15px;
+    }
+
+    .section5 .contenue .comp-reseaux .maintn {
+        flex-direction: column;
+    }
+
+    .section5 .contenue .comp-reseaux .maintn img {
+        margin: 0;
+        margin-bottom: 15px;
+    }
+
+    .section5 .contenue .comp-embarque .prototype-elec {
+        flex-direction: column;
+    }
+
+    .section5 .contenue .comp-embarque .prototype-elec h4 {
         text-align: center;
+        font-size: xx-large;
+    }
+
+    .section5 .contenue .comp-embarque .prototype-elec img {
+        margin: 0;
+        margin-bottom: 15px;
+    }
+
+    .section5 .contenue .comp-embarque .code-cpp {
+        flex-direction: column;
+    }
+
+    .section5 .contenue .comp-embarque .code-cpp h4 {
+        text-align: center;
+    }
+
+    .section5 .contenue .comp-embarque .code-cpp img {
+        margin: 0;
+        margin-bottom: 15px;
+    }
+
+    .section5 .contenue .autre-comp .hab-elec {
+        flex-direction: column;
+    }
+
+    .section5 .contenue .autre-comp .hab-elec h4 {
+        font-size: xx-large;
+    }
+
+    .section5 .contenue .autre-comp .hab-elec img {
+        margin: 0;
+        margin-bottom: 15px;
+    }
+}
+
+/* Mobile M */
+@media screen and (max-width: 376px) {
+    .section5 .contenue .comp-embarque .prototype-elec h4 {
+        font-size: x-large;
+    }
+
+    .section5 .contenue .comp-embarque .prototype-elec .texte p {
+        font-size: x-large;
+    }
+}
+
+/* Mobile S */
+@media screen and (max-width: 320px) {
+    .section5 .contenue .langages .Python {
+        padding: 10px;
+    }
+
+    .section5 .contenue .comp-reseaux .param {
+        padding: 10px;
+    }
+
+    .section5 .contenue .comp-reseaux .maintn {
+        padding: 10px;
+    }
+
+    .section5 .contenue .comp-embarque .code-cpp h4 {
+        font-size: xx-large;
+    }
+
+    .section5 .contenue .comp-embarque .code-cpp .texte p {
+        font-size: xx-large;
+    }
+
+    .section5 .contenue .autre-comp .hab-elec h4 {
+        font-size: x-large;
+    }
+
+    .section5 .contenue .autre-comp .hab-elec .texte p {
+        font-size: x-large;
     }
 }
 
