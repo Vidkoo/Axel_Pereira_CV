@@ -1,0 +1,221 @@
+/* Competences */
+.sectionC {
+    background-color: #f2f2f2;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.sectionC .contenue h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.sectionC .contenue .langages {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    margin-left: 2px;
+    margin-right: 2px;
+    flex-wrap: wrap;
+}
+
+.sectionC .contenue .bottom-marg {
+    margin-bottom: 50px;
+}
+
+.sectionC .contenue .box {
+    display: inline-flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+}
+
+.sectionC .contenue .box h4 {
+    font-size: 48px;
+    color: #373737;
+    margin: 0;
+}
+
+.sectionC .contenue .box .texte p {
+    font-size: 36px;
+    margin: 0;
+}
+
+.sectionC .contenue .box img {
+    width: 120px;
+    margin-right: 15px;
+}
+
+.sectionC .contenue .comp-reseaux {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    flex-wrap: wrap;
+}
+
+.sectionC .contenue .autre-comp {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.sectionC .contenue .autre-comp .hab-elec {
+    display: inline-flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+}
+
+.sectionC .contenue .autre-comp .hab-elec h4 {
+    font-size: 48px;
+    color: #373737;
+    margin: 0;
+    text-align: center;
+}
+
+.sectionC .contenue .autre-comp .hab-elec .texte p {
+    font-size: 36px;
+    color: #FFBB00;
+    margin: 0;
+}
+
+.sectionC .contenue .autre-comp .hab-elec img {
+    width: 120px;
+    margin-right: 15px;
+}
+
+/* Laptop L */
+@media screen and (max-width: 1440px) {
+    .sectionC .contenue .langages {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sectionC .contenue .comp-reseaux {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sectionC .contenue .box {
+        margin-bottom: 50px;
+    }
+}
+
+/* Laptop */
+@media screen and (max-width: 1024px) {
+    .sectionC .contenue h3 {
+        text-align: center;
+    }
+
+    .sectionC .contenue .langages {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+/* Tablette */
+@media screen and (max-width: 768px) {
+
+    .sectionC .contenue .box {
+        flex-direction: column;
+    }
+
+    .sectionC .contenue .box img {
+        margin: 0;
+        margin-bottom: 15px;
+    }
+
+    .sectionC .contenue .box .texte {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .sectionC .contenue .langages .HTML {
+        width: 300px;
+    }
+
+    .sectionC .contenue .langages .cpp {
+        width: 300px;
+    }
+
+    .sectionC .contenue .autre-comp .hab-elec {
+        flex-direction: column;
+    }
+    
+    .sectionC .contenue .autre-comp .hab-elec .texte {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sectionC .contenue .autre-comp .hab-elec h4 {
+        font-size: xx-large;
+    }
+
+    .sectionC .contenue .autre-comp .hab-elec img {
+        margin: 0;
+        margin-bottom: 15px;
+    }
+}
+
+/* Mobile L */
+@media screen and (max-width: 425px) {
+    
+    .sectionC .contenue .langages .HTML, .CSS, .SQL {
+        width: 350px;
+    }
+
+    .sectionC .contenue .comp-reseaux .install {
+        width: 300px;
+    }
+}
+
+/* Mobile M */
+@media screen and (max-width: 376px) {
+
+    .sectionC .contenue .langages .HTML, .CSS, .SQL {
+        width: 200px;
+    }
+
+    .sectionC .contenue .comp-reseaux .sys, .res, .install {
+        width: 300px;
+    }
+}
+
+/* Mobile S */
+@media screen and (max-width: 320px) {
+
+    .sectionC .contenue .langages .PHP, .JS, .Python {
+        width: 250px;
+    }
+
+    .sectionC .contenue .langages .cpp {
+        width: 250px;
+    }
+
+    .sectionC .contenue .comp-reseaux .sys, .res {
+        width: 260px;
+    }
+
+    .sectionC .contenue .comp-reseaux .install {
+        width: 260px;
+    }
+
+    .sectionC .contenue .autre-comp .hab-elec h4 {
+        font-size: x-large;
+    }
+
+    .sectionC .contenue .autre-comp .hab-elec .texte p {
+        font-size: x-large;
+    }
+}

@@ -1,0 +1,89 @@
+/* Formations */
+.sectionF {
+    background-color: #f2f2f2;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.sectionF .contenue .texteF {
+    display: flex;
+    margin-left: 400px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.sectionF .contenue .texteF .dates_ecole {
+    border-right: 3px #888888 solid;
+    padding-right: 50px;
+}
+
+.sectionF .contenue .texteF .dates_ecole p {
+    font-size: 30px;
+}
+
+.sectionF .contenue .texteF .ecole {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionF .contenue .texteF .ecole h2 {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.sectionF .contenue .texteF .ecole p {
+    font-size: 20px;
+    margin: 0;
+}
+
+/* Laptop L */
+@media screen and (max-width: 1440px) {
+    .sectionF .contenue .texteF {
+        margin-left: 100px;
+    }
+}
+
+/* Laptop */
+@media screen and (max-width: 1024px) {
+    .sectionF .contenue .texteF {
+        margin-left: 100px;
+    }
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+
+    .sectionF .contenue .texteF .ecole {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .sectionF .contenue .texteF {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .sectionF .contenue .texteF .dates_ecole {
+        border-right: none;
+        padding-right: 0;
+    }
+
+    .sectionF .contenue .texteF .dates_ecole p {
+        margin: 0;
+        font-size: 50px;
+    }
+
+    .sectionF .contenue .texteF .ecole {
+        padding-left: 0;
+    }
+}
+
+/* Mobile S */
+@media screen and (max-width: 320px) {
+
+    .sectionF .titre h2 {
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,69 @@
+/* Loisirs */
+.sectionL {
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.sectionL .contenue {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.sectionL .contenue .Loisirs {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sectionL .contenue .Loisirs .box {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.sectionL .contenue .Loisirs .box .element {
+    display: inline-flex;
+    align-items: center;
+}
+
+.sectionL .contenue .Loisirs .box .element i {
+    color: #000;
+    font-size: 100px;
+    margin-right: 20px;
+}
+
+.sectionL .contenue .Loisirs .box .element p {
+    color: #000;
+    font-size: 48px;
+    font-weight: 300;
+    margin: 0;
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+    .sectionL .contenue .Loisirs .box {
+        width: 300px;
+    }
+
+    .sectionL .contenue .Loisirs .box .element {
+        flex-direction: column;
+    }
+
+    .sectionL .contenue .Loisirs .box .element i {
+        margin-bottom: 30px;
+    }
+
+    .sectionL .contenue .Loisirs .box .element p {
+        text-align: center;
+    }
+}
+
+/* Mobile S */
+@media screen and (max-width: 320px) {
+    .sectionL .contenue .Loisirs .box {
+        width: 200px;
+    }
+}

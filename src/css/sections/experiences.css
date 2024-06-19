@@ -1,0 +1,81 @@
+/* Experience */
+.sectionE {
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.sectionE .contenue .texteE {
+    display: flex;
+    align-items: center;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+.sectionE .contenue .texteE .dates_experience {
+    border-right: 3px #888888 solid;
+    padding-right: 50px;
+}
+
+.sectionE .contenue .texteE .dates_experience p  {
+    font-size: 30px;
+}
+
+.sectionE .contenue .texteE .experience {
+    padding-left: 20px;
+}
+
+.sectionE .contenue .texteE .experience h2 {
+    font-weight: 400;
+    margin: 0;
+}
+
+
+.sectionE .contenue .texteE .experience p {
+    margin: 0;
+}
+
+/* Laptop L */
+
+@media screen and (max-width: 1440px) {
+    .sectionE .contenue .texteE {
+        margin-left: 100px;
+    }
+}
+
+/* Laptop */
+@media screen and (max-width: 1024px) {
+    .sectionE .contenue .texteE {
+        margin-left: 100px;
+    }
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+
+    .sectionE .contenue .experience {
+        text-align: center;
+    }
+
+    .sectionE .contenue .texteE {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .sectionE .contenue .texteE .dates_experience {
+        border-right: none;
+        padding-right: 0;
+    }
+
+    .sectionE .contenue .texteE .dates_experience p {
+        margin: 0;
+        font-size: 50px;
+    }
+
+    .sectionE .contenue .texteE .experience {
+        padding-left: 0;
+    }
+
+    .sectionE .contenue .texteE .experience ul li {
+        align-items: center;
+    }
+}

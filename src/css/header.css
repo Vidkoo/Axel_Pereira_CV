@@ -1,0 +1,55 @@
+/* Haut de page */
+header {
+    background-image: url("../img/coding-924920_1920.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 100px;
+    color: #fff;
+    font-family: 'Kaushan Script', sans-serif;
+    font-weight: 500;
+}
+
+/* Laptop */
+@media screen and (max-width: 1024px) {
+    header {
+        background-image: url("../img/fond-coding-tablet.png");
+    }
+}
+
+/* Mobile L */
+@media screen and (max-width: 425px) {
+    header {
+        background-image: url("../img/fond-coding-phoneL.jpg");
+    }
+}
+
+/* Mobile M */
+@media screen and (max-width: 375px) {
+    header {
+        background-image: url("../img/fond-coding-phoneM.jpg");
+    }
+
+    header h1 {
+        font-size: 90px;
+    }
+}
+
+/* Mobile S */
+@media screen and (max-width: 320px) {
+    header {
+        background-image: url("../img/fond-coding-phoneS.jpg");
+    }
+
+    header h1 {
+        font-size: 80px;
+    }
+}

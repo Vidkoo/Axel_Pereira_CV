@@ -1,0 +1,57 @@
+/* Profil */
+.sectionP {
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.sectionP .contenue {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.sectionP .contenue .texte1P .infos ul {
+    list-style-type: none;
+    font-size: 25px;
+}
+
+.sectionP .contenue .texte1P .objectif p {
+    padding-left: 40px;
+    margin-top: 70px;
+    font-size: 20px;
+}
+
+.sectionP .contenue .texte1P .objectif p span
+{
+    font-weight: bold;
+    cursor: help;
+}
+
+.sectionP .contenue img {
+    width: 300px;
+    border: #888888 3px solid;
+    padding: 10px;
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+    .sectionP .contenue {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .sectionP .contenue .texte1P .infos ul {
+        text-align: center;
+        padding-left: 0;
+    }
+    .sectionP .contenue .texte1P .objectif p {
+        padding-left: 0;
+    }
+}
+
+/* Mobile S */
+@media screen and (max-width: 320px) {
+    .sectionP .contenue img {
+        width: 250px;
+    }
+}

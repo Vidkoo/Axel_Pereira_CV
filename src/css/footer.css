@@ -1,0 +1,33 @@
+/* Bas de page */
+footer {
+    display: flex;
+    background-color: #141414;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer h2 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+footer a i {
+    color: #c3c3c3;
+    font-size: 150px;
+}
+
+footer a i:hover {
+    color: #fff;
+}
+
+/* Mobile L */
+@media screen and (max-width: 425px) {
+    footer h2 {
+        text-align: center;
+    }
+}
