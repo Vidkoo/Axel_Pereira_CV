@@ -51,6 +51,10 @@
     margin-right: 15px;
 }
 
+/*.sectionC .contenue .langages .SQL {
+    height: 140px
+}*/
+
 .sectionC .contenue .comp-reseaux {
     display: flex;
     justify-content: space-evenly;
