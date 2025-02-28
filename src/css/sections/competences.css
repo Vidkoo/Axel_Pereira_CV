@@ -12,7 +12,7 @@
     font-weight: 300;
 }
 
-.sectionC .contenue .langages {
+.sectionC .contenue .langages, .systeme, .reseau {
     display: flex;
     justify-content: space-evenly;
     margin-top: 100px;
@@ -51,9 +51,13 @@
     margin-right: 15px;
 }
 
-/*.sectionC .contenue .langages .SQL {
+.sectionC .contenue .langages .SQL {
     height: 140px
-}*/
+}
+
+.sectionC .contenue .langages .cpp {
+    height: 140px;
+}
 
 .sectionC .contenue .comp-reseaux {
     display: flex;
@@ -98,12 +102,7 @@
 
 /* Laptop L */
 @media screen and (max-width: 1440px) {
-    .sectionC .contenue .langages {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .sectionC .contenue .comp-reseaux {
+    .sectionC .contenue .langages, .systeme, .reseau {
         flex-direction: column;
         align-items: center;
     }
@@ -144,11 +143,24 @@
         flex-wrap: wrap;
     }
 
-    .sectionC .contenue .langages .HTML {
+    .sectionC .contenue .langages .HTML, .CSS, .Python, .cpp {
         width: 300px;
     }
 
+    .sectionC .contenue .langages .SQL {
+        width: 300px;
+        height: 200px;
+    }
+
     .sectionC .contenue .langages .cpp {
+        height: 250px;
+    }
+
+    .sectionC .contenue .systeme .glpi {
+        width: 300px;
+    }
+
+    .sectionC .contenue .reseau .voip {
         width: 300px;
     }
 
@@ -175,23 +187,31 @@
 /* Mobile L */
 @media screen and (max-width: 425px) {
     
-    .sectionC .contenue .langages .HTML, .CSS, .SQL {
+    .sectionC .contenue .langages .HTML, .CSS, .SQL, .Python {
         width: 350px;
     }
 
-    .sectionC .contenue .comp-reseaux .install {
-        width: 300px;
+    .sectionC .contenue .systeme .linux, .windows, .virtualisation, .glpi, .conf-sys {
+        width: 350px;
+    }
+
+    .sectionC .contenue .reseau .protocoles, .routage, .conf-reseau, .securite, .voip, .wireshark {
+        width: 350px;
     }
 }
 
 /* Mobile M */
 @media screen and (max-width: 376px) {
 
-    .sectionC .contenue .langages .HTML, .CSS, .SQL {
-        width: 200px;
+    .sectionC .contenue .langages .HTML, .CSS, .SQL, .Python {
+        width: 300px;
     }
 
-    .sectionC .contenue .comp-reseaux .sys, .res, .install {
+    .sectionC .contenue .systeme .linux, .windows, .virtualisation, .glpi, .conf-sys {
+        width: 300px;
+    }
+
+    .sectionC .contenue .reseau .protocoles, .routage, .conf-reseau, .securite, .voip, .wireshark {
         width: 300px;
     }
 }
@@ -199,7 +219,11 @@
 /* Mobile S */
 @media screen and (max-width: 320px) {
 
-    .sectionC .contenue .langages .PHP, .JS, .Python {
+    .sectionC .contenue .langages .HTML, .CSS, .Python {
+        width: 250px;
+    }
+
+    .sectionC .contenue .langages .SQL {
         width: 250px;
     }
 
@@ -207,12 +231,28 @@
         width: 250px;
     }
 
-    .sectionC .contenue .comp-reseaux .sys, .res {
-        width: 260px;
+    .sectionC .contenue .systeme .linux, .windows, .glpi {
+        width: 250px;
     }
 
-    .sectionC .contenue .comp-reseaux .install {
-        width: 260px;
+    .sectionC .contenue .systeme .glpi {
+        width: 250px;
+    }
+
+    .sectionC .contenue .systeme .virtualisation, .conf-sys {
+        width: 270px;
+    }
+
+    .sectionC .contenue .reseau .protocoles, .routage, .securite, .wireshark {
+        width: 250px;
+    }
+
+    .sectionC .contenue .reseau .voip {
+        width: 250px;
+    }
+    
+    .sectionC .contenue .reseau .conf-reseau {
+        width: 270px;
     }
 
     .sectionC .contenue .autre-comp .hab-elec h4 {
